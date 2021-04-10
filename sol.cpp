@@ -9,7 +9,7 @@ int main() {
 	cin >> n1 >> n2 >> n3;
 	// create 3 vectors for input
 	vector<int> a(n1), b(n2), c(n3);
-	// create a 'size' vector to determine the size of the vector for counting
+	// create a 'size' variable to determine the size of the vector for counting
 	int size = INT_MIN;
 	for (int i = 0; i < n1; i++) {
 		cin >> a[i];
